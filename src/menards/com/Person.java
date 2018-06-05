@@ -4,5 +4,5 @@ public class Person {
 	
 	private String FName;
 	private String Lname;
-	private String Employer;
+	private static String Employer;
 }
