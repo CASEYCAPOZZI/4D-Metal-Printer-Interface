@@ -8,7 +8,7 @@ public class Main {
 		Person casey = new Person();
 		
 		casey.setFName("Casey");
-		casey.setLname("Capozzi");
+		casey.setLname("Capozz");
 		
 		
 		System.out.println("Hello " + casey.getFName() + " " + casey.getLname() + " from " + casey.getEmployer() + "!!");
