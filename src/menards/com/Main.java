@@ -11,7 +11,7 @@ public class Main {
 		casey.setLname("Capozzi");
 		
 		
-		System.out.println("Hello " + casey.getFName() + " " + casey.getLname() + "!!");
+		System.out.println("Hello " + casey.getFName() + " " + casey.getLname() + " from " + casey.getEmployer() + "!!");
 		
 		
 	}
