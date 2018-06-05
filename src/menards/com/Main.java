@@ -5,11 +5,15 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		String FName  = "Casey";
-		String LName = "Capozzi";
+		Person casey = new Person();
 		
-
-		System.out.println("Hello " + FName + " " + LName + "!!");
+		casey.setFName("Casey");
+		casey.setLname("Capozzi");
+		
+		
+		System.out.println("Hello " + casey.getFName() + " " + casey.getLname() + "!!");
+		
+		
 	}
 
 }
